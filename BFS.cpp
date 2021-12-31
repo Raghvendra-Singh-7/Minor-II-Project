@@ -50,6 +50,7 @@ public:
                     {
                         cout << "Target Found" << endl;
                         displayPath(target);
+                        break;
                     }
                     queue.push_back(*i);
                 }
