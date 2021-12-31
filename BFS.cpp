@@ -106,7 +106,7 @@ int main()
     cin >> source;
     cout << "Enter the target vertex:";
     cin >> target;
-    g.Breadth_First_Search(target, source);
+    g.Breadth_First_Search(source, target);
     cout << endl;
     cout << "Time taken: ";
     double ans = (double)(clock() - tStart) / CLOCKS_PER_SEC;
