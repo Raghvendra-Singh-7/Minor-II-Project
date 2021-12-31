@@ -48,7 +48,7 @@ public:
                     visited[*i] = true;
                     if (*i == target)
                     {
-                        cout << "Target Not Found" << endl;
+                        cout << "Target Found" << endl;
                         displayPath(target);
                     }
                     queue.push_back(*i);
